@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #e76f51;
+    .container {
+        .row {
+            padding: 40px 0;
+            .col-12 {
+                text-align: center;
+                h1 {
+                    cursor: pointer;
+                    color: #e9c46a;
+                    transition: 0.5s;
+                    text-shadow: 3px -2px 0 #2a9d8f, 4px -3px 0#264653;
+                    &:hover {
+                        text-shadow: 3px -2px 0 #caffbf, 5px -3px 0#e63946;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    min-height: 100vh;
+    padding: 50px 0;
+    background: #f4a261;
+    .container {
+        .row {
+            text-align: center;
+            .reverseField {
+                margin-top: 100px;
+                h2 {
+                    color: #fff;
+                    text-shadow: 2px 0 0 #e76f51, 3px 0 0 #e76f51;
+                }
+                input {
+                    outline: none;
+                    border: none;
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+                .btn {
+                    background: #2a9d8f;
+                    padding: 10px;
+                    border-radius: 10px;
+                    border: none;
+                    outline: none !important;
+                    color: #f1faee;
+                    margin-left: 10px;
+                    outline: none;
+                    transition: 0.5s;
+                    &:hover {
+                        background: #1a665d;
+                    }
+                }
+                .result {
+                    text-shadow: 2px 0 0 #264653, 3px 0 0 #2a9d8f;
+                    ;
+                    color: #fff;
+                    padding: 10px;
+                    font-size: 2rem;
+                }
+            }
+            .areaField {
+                text-align: center;
+                margin-top: 100px;
+                h2 {
+                    color: #fff;
+                    text-shadow: 2px 0 0 #e76f51, 3px 0 0 #e76f51;
+                }
+                input {
+                    outline: none;
+                    border: none;
+                    padding: 10px;
+                    border-radius: 10px;
+                    margin-left: 10px;
+                }
+                .btn {
+                    background: #2a9d8f;
+                    padding: 10px;
+                    border-radius: 10px;
+                    border: none;
+                    outline: none !important;
+                    color: #f1faee;
+                    margin-left: 10px;
+                    outline: none;
+                    transition: 0.5s;
+                    &:hover {
+                        background: #1a665d;
+                    }
+                }
+                .box-container {
+                    margin: 50px 0;
+                }
+                .box {
+                    margin: 20px;
+                    box-shadow: 0 0 40px 3px rgba(216, 101, 101, 0.562);
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    transition: 0.7s;
+                    &:hover {
+                        background-color: #000 !important;
+                    }
+                }
+            }
+            .wordSortField {
+                margin-top: 70px;
+                padding-bottom: 300px;
+                position: relative;
+                h2 {
+                    color: #ff6b6b;
+                    text-shadow: 2px 0 0 #fff, 3px 0 0 #e5b3fe;
+                }
+                .img-box {
+                    position: absolute;
+                    top: -30px;
+                    right: 100px;
+                    width: 200px;
+                    img {
+                        max-width: 100%;
+                    }
+                }
+                input {
+                    outline: none;
+                    border: none;
+                    padding: 10px;
+                    border-radius: 10px;
+                    margin-left: 10px;
+                }
+                .btn {
+                    background: #2a9d8f;
+                    padding: 10px;
+                    border-radius: 10px;
+                    border: none;
+                    outline: none !important;
+                    color: #f1faee;
+                    margin-left: 10px;
+                    outline: none;
+                    transition: 0.5s;
+                    &:hover {
+                        background: #1a665d;
+                    }
+                }
+                .sortedWord {
+                    text-shadow: 2px 0 0 #264653, 3px 0 0 #2a9d8f;
+                    ;
+                    color: #fff;
+                    padding: 10px;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
